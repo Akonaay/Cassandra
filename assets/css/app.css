@@ -364,6 +364,12 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 
 @media (max-width: 395px) {
     .navbar-brand {
-        font-size: 27px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 343px) {
+    .navbar-brand {
+        font-size: 24px;
     }
 }

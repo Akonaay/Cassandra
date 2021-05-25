@@ -366,6 +366,10 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
     .navbar-brand {
         font-size: 25px;
     }
+
+	.hide-sm{
+		display: none !important;
+	}
 }
 
 @media (max-width: 343px) {
@@ -373,3 +377,24 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
         font-size: 24px;
     }
 }
+
+@media (max-width: 343px) {
+    .caro_h3{
+        font-size: 26px !important;
+		font-weight: 600;
+    }
+
+	.caro_h3_2 {
+		font-size: 21px !important;
+		font-weight: 800;
+	}
+
+}
+
+/* @media (max-width: 405px) {
+    .banner-btn {
+        width: 150px !important;
+    }
+} */
+
+

@@ -391,10 +391,24 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 
 }
 
-/* @media (max-width: 405px) {
-    .banner-btn {
-        width: 150px !important;
+@media (max-width: 333px) {
+    .caro_h3{
+        font-size: 23px !important;
+		font-weight: 600;
     }
-} */
+
+	.caro_h3_2 {
+		font-size: 19px !important;
+		font-weight: 800;
+	}
+}
+
+@media (max-width: 405px) {
+    .banner-btn {
+        display: flex;
+		justify-content: center !important;
+		align-items: center !important;
+    }
+}
 
 

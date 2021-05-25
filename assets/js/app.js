@@ -3,5 +3,6 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     item: 3,
     autoplay:false,
-    autoplayTimeout:5000
+    autoplayTimeout: 5000,
+    nav: true
 })

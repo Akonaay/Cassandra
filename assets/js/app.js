@@ -6,3 +6,4 @@ $('.owl-carousel').owlCarousel({
     autoplayTimeout: 5000,
     // nav: true
 })
+

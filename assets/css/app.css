@@ -446,35 +446,11 @@
 	border: none;
 }
 
-.breadcrumb li a {
-	text-decoration: none;
+.rating .fas {
+	text-decoration: none !important;
 }
 
-.breadcrumbs-custom-path li {
-	position: relative;
-	display: inline-block;
-	vertical-align: middle;
-	font-size: 1.2em;
-	line-height: 1.5;
-	font-weight: 400;
-	text-transform: capitalize;
-	/* color: #fff; */
-	margin-top: 25px !important;
-}
-
-.breadcrumbs-custom-path li a {
-	color: #fff;
-	opacity: .6;
-}
-
-.breadcrumbs-custom-path li a:hover {
-	/* color: ; */
-}
-
-.breadcrumbs-custom-path li span.fa {
-	font-size: 12px;
-	vertical-align: 2px;
-}
+/* Bras end  */
 
 /*--/footer--*/
 

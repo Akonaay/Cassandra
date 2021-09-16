@@ -1,11 +1,22 @@
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    item: 3,
+    item: 4,
     autoplay:true,
     autoplayTimeout: 5000,
     // nav: true
 })
+
+$('.owl-bikini').owlCarousel({
+    loop:true,
+    margin:10,
+    item: 2,
+    autoplay:true,
+    autoplayTimeout: 5000,
+    // nav: true
+})
+
+
 
 $('.portfolio-popup').magnificPopup({
     type: 'image',

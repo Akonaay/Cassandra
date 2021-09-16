@@ -443,7 +443,34 @@
 	min-height: 400px !important;
 }
 
-.bras-inner .underwear-inner .jewelley-inner {
+.bg-jewelley-home {
+	background-size: cover;
+	background-image: linear-gradient(to right, rgba(66, 24, 24, 0.7), rgba(115, 235, 215, 0.198)), url(../img/Jewellery/jewelley-banner.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center;
+	/* background-attachment: fixed; */
+	min-height: 500px !important;
+}
+
+.new-arrial-bg {
+	background-size: cover;
+	background-image: linear-gradient(to right, rgba(66, 24, 24, 0.7), rgba(115, 235, 215, 0.198)), url(../img/Hero2_Soft-Collection_Desktop_96c4416a-9c30-4b81-8990-42563103ca0c_1920X_crop_center.progressive.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center;
+	/* background-attachment: fixed; */
+	min-height: 500px !important;
+}
+
+.bikini-feature-cover {
+	background-size: cover;
+	background-image: linear-gradient(to right, rgba(66, 24, 24, 0.7), rgba(115, 235, 215, 0.198)), url(../img/Features/bikini.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center;
+	/* background-attachment: fixed; */
+	min-height: 500px !important;
+}
+
+.bras-inner .underwear-inner .jewelley-inner .bikini-feature-p {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
@@ -460,6 +487,10 @@
 	font-size: 3.2em;
 	line-height: 1.5;
 	font-weight: 400;
+}
+
+.w-btn {
+	width: 300px !important;
 }
 
 .bras-list {

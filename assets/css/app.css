@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700;800;900&display=swap');
 @font-face {
 	font-family: Poppins;
 	src: url(/assets/fonts/Poppins-Regular.ttf);
 }
 
 * {
-	font-family: 'Poppins', sans-serif;
+	/* font-family: 'Poppins', sans-serif; */
+	font-family: 'Oswald', sans-serif;
 }
 
 .navbar {
@@ -410,16 +412,38 @@
 
 /* Bras  */
 
-.bg-bras {
-	background-size: cover;
-	background-image: linear-gradient(to right, rgba(25, 25, 25, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pexels-sora-shimazaki-5938628.jpg);
-	background-repeat: no-repeat, no-repeat, no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	min-height: 300px !important;
+.bras-cover .jewelley-cover {
+	color: white;
 }
 
-.bras-inner {
+.bg-bras {
+	background-size: cover;
+	background-image: linear-gradient(to right, rgba(66, 24, 24, 0.7), rgba(115, 235, 215, 0.198)), url(../img/Bras/bras-banner.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center;
+	/* background-attachment: fixed; */
+	min-height: 400px !important;
+}
+
+.bg-underwear {
+	background-size: cover;
+	background-image: linear-gradient(to right, rgba(66, 24, 24, 0.7), rgba(115, 235, 215, 0.198)), url(../img/Underwears/underwear-banner_1440x.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center;
+	/* background-attachment: fixed; */
+	min-height: 400px !important;
+}
+
+.bg-jewelley {
+	background-size: cover;
+	background-image: linear-gradient(to right, rgba(66, 24, 24, 0.7), rgba(115, 235, 215, 0.198)), url(../img/Jewellery/jewelley-banner.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center;
+	/* background-attachment: fixed; */
+	min-height: 400px !important;
+}
+
+.bras-inner .underwear-inner .jewelley-inner {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
@@ -427,8 +451,15 @@
 	line-height: 1.5;
 	font-weight: 400;
 	text-transform: capitalize;
-	color: #fff;
-	margin-top: 25px !important;
+	color: rgb(206, 10, 10) !important;
+	text-shadow: #03cce6;
+	margin-top: 500px !important;
+}
+
+.bras-inner .underwear-inner p {
+	font-size: 3.2em;
+	line-height: 1.5;
+	font-weight: 400;
 }
 
 .bras-list {

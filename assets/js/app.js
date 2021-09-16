@@ -24,3 +24,6 @@ $('.portfolio-popup').magnificPopup({
     }
   });
 
+
+
+  

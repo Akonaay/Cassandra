@@ -461,16 +461,43 @@
 	min-height: 500px !important;
 }
 
-.bikini-feature-cover {
+.bikini-bg {
 	background-size: cover;
 	background-image: linear-gradient(to right, rgba(66, 24, 24, 0.7), rgba(115, 235, 215, 0.198)), url(../img/Features/bikini.jpg);
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center;
 	/* background-attachment: fixed; */
-	min-height: 500px !important;
+	min-height: 600px !important;
 }
 
-.bras-inner .underwear-inner .jewelley-inner .bikini-feature-p {
+.bg-sleepwear {
+	background-size: cover;
+	background-image: linear-gradient(to right, rgba(66, 24, 24, 0.7), rgba(115, 235, 215, 0.198)), url(../img/Features/bikini.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center;
+	/* background-attachment: fixed; */
+	min-height: 360px !important;
+}
+
+.bg-best-sellers {
+	background-size: cover;
+	background-image: linear-gradient(to right, rgba(66, 24, 24, 0.7), rgba(115, 235, 215, 0.198)), url(../img/Features/best-sellers-banner.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center;
+	/* background-attachment: fixed; */
+	min-height: 450px !important;
+}
+
+.bg-new-arrivals {
+	background-size: cover;
+	background-image: linear-gradient(to right, rgba(66, 24, 24, 0.7), rgba(115, 235, 215, 0.198)), url(../img/Features/bra-underwear.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center;
+	/* background-attachment: fixed; */
+	min-height: 430px !important;
+}
+
+.bras-inner .underwear-inner .jewelley-inner .sleepwear-inner .bikini-feature-p {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
@@ -487,6 +514,10 @@
 	font-size: 3.2em;
 	line-height: 1.5;
 	font-weight: 400;
+}
+
+a .portfolio-popup {
+	text-decoration: none;
 }
 
 .w-btn {
